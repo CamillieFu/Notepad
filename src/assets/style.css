@@ -26,6 +26,7 @@ button:focus {
 .sidebar {
   width: 20%;
   height: 100vh;
+  background-color: #e6e6fa;
 }
 
 .sidebar--note {
@@ -44,7 +45,7 @@ button:focus {
 
 .new-note {
   cursor: pointer;
-  background-color: #4A4E74;
+  background-color: #639;
   border: none;
   color: white;
   border-radius: 3px;
@@ -102,7 +103,7 @@ button:focus {
 }
 
 .selected-note {
-  background-color: #4A4E74;
+  background-color: #639;
 }
 
 .selected-note .text-snippet {

@@ -1,0 +1,14 @@
+.mde-header {
+  padding: 8px 0px 8px 8px;
+}
+
+.mde-header .mde-tabs button.selected {
+  border: solid 1px #e6e6fa;
+  box-shadow: 0px 1px 1px 0px whitesmoke;
+  background-color: #e6e6fa;
+  border-radius: 8px;
+}
+
+.mde-textarea-wrapper textarea.mde-text {
+  padding-left: 18px;
+}
