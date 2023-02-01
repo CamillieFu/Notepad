@@ -26,7 +26,7 @@ button:focus {
 .sidebar {
   width: 20%;
   height: 100vh;
-  background-color: #e6e6fa;
+  background-color: #ebebf8;
 }
 
 .sidebar--note {
@@ -35,17 +35,18 @@ button:focus {
 
 .sidebar--header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0px 16px;
 }
 
 .sidebar--header>h3 {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
 }
 
 .new-note {
   cursor: pointer;
-  background-color: #639;
+  background-color: rgb(161, 133, 189);
   border: none;
   color: white;
   border-radius: 3px;
@@ -55,7 +56,7 @@ button:focus {
 
 .first-note {
   cursor: pointer;
-  background-color: #4A4E74;
+  background-color: rgb(161, 133, 189);
   border: none;
   color: white;
   border-radius: 3px;
@@ -103,7 +104,7 @@ button:focus {
 }
 
 .selected-note {
-  background-color: #639;
+  background-color: rgb(161, 133, 189);
 }
 
 .selected-note .text-snippet {
@@ -144,6 +145,7 @@ button:focus {
   display: none;
   background: none;
   border: none;
+  margin-right: 8px;
 }
 
 .title:hover>.delete-btn {
