@@ -43,6 +43,7 @@ button:focus {
 .sidebar--header>h3 {
   font-size: 1.6rem;
   font-weight: 500;
+  color: #3a3f3f;
 }
 
 .new-note {

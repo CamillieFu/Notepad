@@ -12,4 +12,14 @@
 
 .mde-textarea-wrapper textarea.mde-text {
   padding-left: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mde-header .mde-tabs button {
+  color: #66777a;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mde-header .svg-icon {
+  color: #66777a;
 }
